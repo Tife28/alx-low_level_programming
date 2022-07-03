@@ -31,6 +31,7 @@ putchar(' ');
 i++;
 }
 e++;
+}
 putchar('\n');
 return (0);
 }
