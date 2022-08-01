@@ -18,7 +18,7 @@ int i, lname, lowner;
 p_dog = malloc(sizeof(*p_dog));
 if (p_dog == NULL || !(name) || !(owner))
 {
-free(p_dog);
+free (p_dog);
 return (NULL);
 }
 
